@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Avenir Next", sans-serif; 
+	background-color: #F8F9F4;
+}
+
+sub {
+	font-size: 0.85em;
+}
