@@ -5,6 +5,21 @@ body {
 	background-color: #F8F9F4;
 }
 
+/* span {
+	display: 'block';
+} */
+.round p{
+	text-align: center;
+}
+
+.txt a {
+	color: #black;
+}
+
+.txt a:hover {
+  color: #9B9B9B;
+}
+
 .txt h1 {
 	color: #2980BA;
 	/* margin-bottom: 80px; */
@@ -19,6 +34,18 @@ body {
 	font-size: 18px;
 	font-style: italic;
 	font-weight: normal; /* to be changed? */
+}
+
+.txt h3 {
+	color: #2980BA;
+	margin-top: 0px;
+	font-size: 14px;
+	font-weight:bold; /* to be changed? */
+}
+
+.txt h4 {
+	color: #FFFFFF;
+	font-size: 14px;
 }
 
 .txt p {
@@ -39,9 +66,9 @@ body {
 	padding-bottom: 10px;
 }
 
-.txt a{
+/* .txt a{
 	color:#FFFFFF;
-}
+} */
 
 .txt ul {
 	color: #2980BA;
@@ -64,6 +91,10 @@ body {
 	color:#FFFFFF;
 	font-weight: bold;
 	background-color: #2980BA;
+}
+
+.button a{
+	color: #FFFFFF;
 }
 
 #coal{
@@ -172,16 +203,36 @@ body {
 	font-weight: bold;
 }
 
+
+#ch4text{
+	position: absolute;
+	top: 4%;
+	left: 82%;
+}
+
+#ch4{
+	position: absolute;
+	top: 10%;
+	left: 84%;
+	opacity: 0.8;
+
+}
+
+#ch4:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
 #co2text{
 	position: absolute;
 	top: 13%;
-	left: 64%;
+	left: 58%;
 }
 
 #co2{
 	position: absolute;
 	top: 21%;
-	left: 70%;
+	left: 62%;
 	opacity: 0.8;
 
 }
@@ -244,14 +295,150 @@ body {
 	opacity: 1.0;
 	cursor: pointer;
 }
+#timeline0 {
+	position: absolute;
+	top: 141%;
+	left: 12%;
+	opacity: 0.8;}
 
+#timeline0:hover{
+		opacity: 1.0;
+		cursor: pointer;
+	}
+#timeline1 {
+	position: absolute;
+	top: 146%;
+	left: 29%;
+	opacity: 0.8;}
+
+#timeline1:hover{
+		opacity: 1.0;
+		cursor: pointer;
+	}
+#timeline2 {
+		position: absolute;
+		top: 142%;
+		left: 49%;
+		opacity: 0.8;}
+
+#timeline2:hover{
+			opacity: 1.0;
+			cursor: pointer;
+		}
+#timeline3 {
+			position: absolute;
+			top: 146%;
+			left: 74%;
+			opacity: 0.8;}
+
+#timeline3:hover{
+				opacity: 1.0;
+				cursor: pointer;
+			}
+#timeline4 {
+				position: absolute;
+				top: 153%;
+				left: 84%;
+				opacity: 0.8;}
+#timeline4:hover{
+					opacity: 1.0;
+					cursor: pointer;
+				}
+#timeline5 {
+					position: absolute;
+					top: 159%;
+					left: 98%;
+					opacity: 0.8;}
+#timeline5:hover{
+						opacity: 1.0;
+						cursor: pointer;
+					}
+#timeline6 {
+										position: absolute;
+										top: 168%;
+										left: 86%;
+										opacity: 0.8;}
+#timeline6:hover{
+										opacity: 1.0;
+										cursor: pointer;
+										}
+
+#timeline7 {
+										position: absolute;
+										top: 148%;
+										left: 102%;
+										opacity: 0.8;}
+
+#timeline7:hover{
+										opacity: 1.0;
+										cursor: pointer;
+										}
 
 /* .mapcontainer{
 	text-align: center;
 	border: 1px solid black;
 } */
 
+#ny {
+	position: absolute;
+	top: -22%;
+	right: 20.5%;
+	/* transform:rotate(-12deg); */
+	opacity: 0.7;
+}
+
+#ny:hover{
+		opacity: 1.0;
+		cursor: pointer;
+	}
+
+
 .map{
+	display: inline-block;
+	position: relative;
+}
+
+.collapsible #ny {
+  cursor: pointer;
+  padding: 18px;
+	position: fixed;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+	top: 17%;
+	right: 11.5%;
+	position: absolute;
+	/* transform:rotate(-12deg); */
+	opacity: 0.7;
+}
+
+.collapsible {
+  color: #F8F9F4;
+  cursor: pointer;
+  padding: 18px;
+	position: absolute;
+  /* width: 100%; */
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  color: orange;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #F8F9F4;
+}
+
+.plot{
+	margin-top: 30px;
+	margin-bottom: 30px;
 	display: inline-block;
 	position: relative;
 }
@@ -281,4 +468,64 @@ sup {
 
 sub {
 	font-size: 0.85em;
+}
+
+/* Two Columns */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tooltip1 {
+  position: relative;
+  display: inline-block;
+	margin-left: 0px;
+}
+
+.tooltip1 p{
+	/* display: none; */
+
+}
+
+.tooltip1 .tooltip1text {
+  visibility: hidden;
+  width: 120px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: 110%;
+}
+
+.tooltip1 .tooltip1text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+	margin-left: 200px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent gray transparent transparent;
+}
+.tooltip1:hover .tooltip1text {
+  visibility: visible;
 }
