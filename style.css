@@ -381,8 +381,8 @@ body {
 
 #ny {
 	position: absolute;
-	top: -22%;
-	right: 20.5%;
+	top: 17.5%;
+	right: 5%;
 	/* transform:rotate(-12deg); */
 	opacity: 0.7;
 }
@@ -392,26 +392,64 @@ body {
 		cursor: pointer;
 	}
 
+#ne {
+		position: absolute;
+		top: 31%;
+		right: 46%;
+		/* transform:rotate(-12deg); */
+		opacity: 0.7;
+	}
+
+#ne:hover{
+			opacity: 1.0;
+			cursor: pointer;
+		}
+
+
+#oh {
+			position: absolute;
+			top: 32.5%;
+			right: 20%;
+			/* transform:rotate(-12deg); */
+			opacity: 0.7;
+		}
+
+#oh:hover{
+				opacity: 1.0;
+				cursor: pointer;
+			}
+
+#tx {
+			position: absolute;
+			top: 56%;
+			right: 42.5%;
+			/* transform:rotate(-12deg); */
+			opacity: 0.7;
+		}
+
+#tx:hover{
+				opacity: 1.0;
+				cursor: pointer;
+			}
+
+#ca {
+				position: absolute;
+				top: 25%;
+				left: 0%;
+				/* transform:rotate(-12deg); */
+				opacity: 0.7;
+			}
+
+#ca:hover{
+					opacity: 1.0;
+					cursor: pointer;
+				}
 
 .map{
 	display: inline-block;
 	position: relative;
 }
 
-.collapsible #ny {
-  cursor: pointer;
-  padding: 18px;
-	position: fixed;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-	top: 17%;
-	right: 11.5%;
-	position: absolute;
-	/* transform:rotate(-12deg); */
-	opacity: 0.7;
-}
 
 .collapsible {
   color: #F8F9F4;
@@ -436,6 +474,7 @@ body {
   background-color: #F8F9F4;
 }
 
+
 .plot{
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -443,19 +482,7 @@ body {
 	position: relative;
 }
 
-#CA {
-	border: 2px black solid;
-	background-color: black;
 
-	opacity: 0;
-	transform: rotate(-40deg); /* rotate to fit the shape of the state, might not be necessary */
-	position: absolute;
-	height: 70px;
-	width: 25px;
-	top: 39%;
-	left: 25%;
-	cursor: pointer;
-}
 
 #energyPortfolio p {
 	color: #2980BA;
