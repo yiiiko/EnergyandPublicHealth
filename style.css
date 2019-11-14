@@ -297,28 +297,18 @@ body {
 }
 #timeline0 {
 	position: absolute;
-	top: 141%;
-	left: 12%;
+	top: 111%;
+	left: 15%;
 	opacity: 0.8;}
 
 #timeline0:hover{
 		opacity: 1.0;
 		cursor: pointer;
 	}
-#timeline1 {
-	position: absolute;
-	top: 146%;
-	left: 29%;
-	opacity: 0.8;}
-
-#timeline1:hover{
-		opacity: 1.0;
-		cursor: pointer;
-	}
 #timeline2 {
 		position: absolute;
-		top: 142%;
-		left: 49%;
+		top: 111%;
+		left: 45.5%;
 		opacity: 0.8;}
 
 #timeline2:hover{
@@ -327,8 +317,8 @@ body {
 		}
 #timeline3 {
 			position: absolute;
-			top: 146%;
-			left: 74%;
+			top: 111%;
+			left: 68%;
 			opacity: 0.8;}
 
 #timeline3:hover{
@@ -337,8 +327,8 @@ body {
 			}
 #timeline4 {
 				position: absolute;
-				top: 153%;
-				left: 84%;
+				top: 111%;
+				left: 78%;
 				opacity: 0.8;}
 #timeline4:hover{
 					opacity: 1.0;
@@ -346,32 +336,32 @@ body {
 				}
 #timeline5 {
 					position: absolute;
-					top: 159%;
-					left: 98%;
+					top: 111%;
+					left: 87%;
 					opacity: 0.8;}
 #timeline5:hover{
 						opacity: 1.0;
 						cursor: pointer;
 					}
 #timeline6 {
-										position: absolute;
-										top: 168%;
-										left: 86%;
-										opacity: 0.8;}
+						position: absolute;
+						top: 111%;
+						left: 77%;
+						opacity: 0.8;}
 #timeline6:hover{
-										opacity: 1.0;
-										cursor: pointer;
+					  opacity: 1.0;
+						cursor: pointer;
 										}
 
 #timeline7 {
-										position: absolute;
-										top: 148%;
-										left: 102%;
-										opacity: 0.8;}
+						position: absolute;
+						top: 111%;
+						left: 89%;
+						opacity: 0.8;}
 
 #timeline7:hover{
-										opacity: 1.0;
-										cursor: pointer;
+						opacity: 1.0;
+						cursor: pointer;
 										}
 
 /* .mapcontainer{
@@ -384,7 +374,7 @@ body {
 	top: 17.5%;
 	right: 5%;
 	/* transform:rotate(-12deg); */
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 #ny:hover{
@@ -397,7 +387,7 @@ body {
 		top: 31%;
 		right: 46%;
 		/* transform:rotate(-12deg); */
-		opacity: 0.7;
+		opacity: 0.8;
 	}
 
 #ne:hover{
@@ -411,7 +401,7 @@ body {
 			top: 32.5%;
 			right: 20%;
 			/* transform:rotate(-12deg); */
-			opacity: 0.7;
+			opacity: 0.8;
 		}
 
 #oh:hover{
@@ -424,7 +414,7 @@ body {
 			top: 56%;
 			right: 42.5%;
 			/* transform:rotate(-12deg); */
-			opacity: 0.7;
+			opacity: 0.8;
 		}
 
 #tx:hover{
@@ -437,7 +427,7 @@ body {
 				top: 25%;
 				left: 0%;
 				/* transform:rotate(-12deg); */
-				opacity: 0.7;
+				opacity: 0.8;
 			}
 
 #ca:hover{
