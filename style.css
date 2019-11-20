@@ -99,7 +99,7 @@ body {
 
 #coal{
 	position: absolute;
-	top: 40%;
+	top: 1%;
 	right: 73%;
 	opacity: 0.8;
 }
@@ -110,8 +110,8 @@ body {
 
 #naturalgas{
 	position: absolute;
-	top: 65%;
-	right: 40%;
+	top: 45%;
+	left: 20%;
 	opacity: 0.8;
 }
 
@@ -122,8 +122,8 @@ body {
 
 #nuclear{
 	position: absolute;
-	top: 45%;
-	left: 43%;
+	top: 20%;
+	left: 38%;
 	opacity: 0.8;
 }
 
@@ -134,7 +134,7 @@ body {
 
 #solar{
 	position: absolute;
-	top: 59%;
+	top: 55%;
 	left: 65%;
 	opacity: 0.8;
 }
@@ -146,8 +146,8 @@ body {
 
 #wind{
 	position: absolute;
-	top: 11%;
-	left: 80%;
+	top: 0%;
+	right: 8%;
 	opacity: 0.8;
 }
 
@@ -298,7 +298,7 @@ body {
 #timeline0 {
 	position: absolute;
 	top: 111%;
-	left: 15%;
+	left: 15.5%;
 	opacity: 0.8;}
 
 #timeline0:hover{
@@ -308,7 +308,7 @@ body {
 #timeline2 {
 		position: absolute;
 		top: 111%;
-		left: 45.5%;
+		left: 43%;
 		opacity: 0.8;}
 
 #timeline2:hover{
@@ -318,7 +318,7 @@ body {
 #timeline3 {
 			position: absolute;
 			top: 111%;
-			left: 68%;
+			left: 62%;
 			opacity: 0.8;}
 
 #timeline3:hover{
@@ -328,7 +328,7 @@ body {
 #timeline4 {
 				position: absolute;
 				top: 111%;
-				left: 78%;
+				left: 71%;
 				opacity: 0.8;}
 #timeline4:hover{
 					opacity: 1.0;
@@ -337,7 +337,7 @@ body {
 #timeline5 {
 					position: absolute;
 					top: 111%;
-					left: 87%;
+					left: 80%;
 					opacity: 0.8;}
 #timeline5:hover{
 						opacity: 1.0;
@@ -346,7 +346,7 @@ body {
 #timeline6 {
 						position: absolute;
 						top: 111%;
-						left: 77%;
+						left: 69%;
 						opacity: 0.8;}
 #timeline6:hover{
 					  opacity: 1.0;
@@ -356,7 +356,7 @@ body {
 #timeline7 {
 						position: absolute;
 						top: 111%;
-						left: 89%;
+						left: 82%;
 						opacity: 0.8;}
 
 #timeline7:hover{
@@ -444,7 +444,7 @@ body {
 .collapsible {
   color: #F8F9F4;
   cursor: pointer;
-  padding: 18px;
+  /* padding: 18px; */
 	position: absolute;
   /* width: 100%; */
   border: none;
@@ -545,4 +545,77 @@ sub {
 }
 .tooltip1:hover .tooltip1text {
   visibility: visible;
+}
+
+.title {
+	position: fixed;
+	top: 300px;
+	text-decoration-style::bold;
+	padding: 15px;
+	width: 150px;
+	text-align: left;
+	font-size: 12px;
+	color: blue;
+	font-weight: bold;
+	right: -80px;
+}
+#mySidenav a {
+	right:-170px;
+  position: fixed;
+  transition: 0.3s;
+  padding: 12px;
+  width: 200px;
+	text-align: left;
+  font-size: 18px;
+  color: blue;
+	opacity: 0.8;
+	font-style: italic;
+	margin-left: 10px;
+}
+
+#mySidenav a:hover {
+	right:-80px;
+  font-size: 19px;
+	opacity: 1.0;
+	color: orange;
+}
+
+#pollutant {
+  top: 330px;
+	/* text-decoration: underline; */
+}
+
+#energy {
+  top: 355px;
+	/* text-decoration: underline; */
+}
+
+#portfolio {
+  top: 380px;
+	/* text-decoration: underline; */
+}
+
+#timeline {
+  top: 405px;
+	/* text-decoration: underline; */
+}
+
+#tool {
+  top: 430px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
 }

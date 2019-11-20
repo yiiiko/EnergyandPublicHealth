@@ -14,8 +14,17 @@
 	</head>
 	<body>
 	<!-- body code goes here -->
+	<!-- <a class="title">Go To:</a> -->
+	<div id="mySidenav" class="sidenav">
+	  <a href="##pollutant-l" id="pollutant">1. Pollutants</a>
+	  <a href="##energy-l" id="energy">2. Energy Source</a>
+	  <a href="##portfolio-l" id="portfolio">3. Portfolio</a>
+	  <a href="##timeline-l" id="timeline">4. Timeline</a>
+		<a href="##tool-l" id="tool">5. Data Tool</a>
+	</div>
 
 
+<a id="pollutants"></a>
 	<div class="container">
 			<div class="text-center txt">
 				<h1>The Hidden Cost of Energy</h1>
@@ -36,7 +45,7 @@
 	</div>
 
 
-
+<a id="#pollutant-l"></a>
 		<div class="container">
   			<div class="text-center txt">
     			<!-- <h1>Energy and Public Health</h1> -->
@@ -62,18 +71,30 @@
 				<div class="man">
 
 					<img src="assets/health.png" alt="man" style="width:700px">
-					<p id="ch4text">*Methane</p>
+					<p id="ch4text">Methane</p>
 					<img src="assets/CH4.png" id="ch4" alt="CH4" style="width:60px" onClick="window.open('CH4.html', '_self');">
-					<p id="co2text">*Carbon Dioxide - eq</p>
-					<img src="assets/CO2-eq.png" id="co2" alt="CO2" style="width:60px" onClick="window.open('CO2.html', '_self');">
-					<p id="noxtext">*Nitrogen Oxide</p>
+					<p id="co2text">Carbon Dioxide</p>
+					<img src="assets/CO2.png" id="co2" alt="CO2" style="width:60px" onClick="window.open('CO2.html', '_self');">
+					<p id="noxtext">Nitrogen Oxide</p>
 					<img src="assets/NOx.png" id="nox" alt="NOx" style="width:60px" onClick="window.open('NOx.html', '_self');">
-					<p id="pmtext">*Particulate Matter</p>
+					<p id="pmtext">Particulate Matter</p>
 					<img src="assets/PM.png" id="pm" alt="PM" style="width:60px" onClick="window.open('pm.html', '_self');">
-					<p id="so2text">*Sulfur Dioxide</p>
+					<p id="so2text">Sulfur Dioxide</p>
 					<img src="assets/SO2.png" id="so2" alt="SO2" style="width:60px" onClick="window.open('SO2.html', '_self');">
 				</div>
 			</div>
+			<!-- <div class="item" data-aos="fade-down">2</div>
+
+			<script>
+			AOS.init({
+      duration: 1200,
+})
+</script> -->
+		</div>
+
+		<div class="container">
+			<br></br>
+				<div class="text-center sup"> <sup>*Click on each icon to learn more information</sup> </div>
 		</div>
 
 
@@ -84,7 +105,7 @@
 				<center><img src="assets/healthcost.png" id="healthcost" alt="healthcost" style="height:120px"></center>
 				<br>
 		    <h3>What are the human health and environmental impacts of air pollutants?</h3>
-		    <p> <a href="https://www.lung.org/our-initiatives/healthy-air/outdoor/air-pollution/" target="_blank">Breathing in </a> air pollutants impact our respiratory, cardiovascular and immune systems. Studies indicate that almost <a href="https://www.theguardian.com/environment/ng-interactive/2019/may/17/air-pollution-may-be-damaging-every-organ-and-cell-in-the-body-finds-global-review" target="_blank">every organ in our bodies can be impacted by air pollution</a>.  In 2013, the <a href="https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health" target="_blank">World Health Organization</a> classified air pollutants as carcinogenic to humans.
+		    <p> <a href="https://www.lung.org/our-initiatives/healthy-air/outdoor/air-pollution/" target="_blank">Breathing in </a> air pollutants impacts our respiratory, cardiovascular and immune systems. Studies indicate that almost <a href="https://www.theguardian.com/environment/ng-interactive/2019/may/17/air-pollution-may-be-damaging-every-organ-and-cell-in-the-body-finds-global-review" target="_blank">every organ in our bodies can be impacted by air pollution</a>.  In 2013, the <a href="https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health" target="_blank">World Health Organization</a> classified air pollutants as carcinogenic to humans.
 Air pollutants are responsible for acid deposition which impact ecosystems and damage to infrastructure. Air pollutants also weaken the immune systems of plants and animals and lower agricultural productivity.
 </p>
 		  </div>
@@ -94,7 +115,7 @@ Air pollutants are responsible for acid deposition which impact ecosystems and d
 				<center><img src="assets/environmentalcost.png" id="environmentalcost" alt="environmentalcost" style="height:120px"></center>
 				<br>
 		    <h3>What are the human health and environmental impacts of greenhouse gases (GHGs)?</h3>
-		    <p><a href="" target="_blank">GHGs</a> in Earth’s atmosphere contribute to the <a href="https://www.koshland-science-museum.org/explore-the-science/interactives/what-is-the-greenhouse-effect" target="_blank">greenhouse effect</a>. As levels of GHGs increase, the average surface temperature of Earth increases which in turn drives climate change. <a href="https://climate.nasa.gov/effects/" target="_blank">Impacts of climate change</a> include rising sea-levels, extreme weather events, drought, spread of diseases, and driving the extinction of species.</p>
+		    <p><a href="https://www.ncdc.noaa.gov/monitoring-references/faq/greenhouse-gases.php" target="_blank">GHGs</a> in Earth’s atmosphere contribute to the <a href="https://www.koshland-science-museum.org/explore-the-science/interactives/what-is-the-greenhouse-effect" target="_blank">greenhouse effect</a>. As levels of GHGs increase, the average surface temperature of Earth increases which in turn drives climate change. <a href="https://climate.nasa.gov/effects/" target="_blank">Impacts of climate change</a> include rising sea-levels, extreme weather events, drought, spread of diseases, and driving the extinction of species.</p>
 				</div>
 			</div>
 		</div>
@@ -111,13 +132,14 @@ Air pollutants are responsible for acid deposition which impact ecosystems and d
 						<p>These “costs” could be shifted towards “savings” by transitioning towards “cleaner” energy sources. Money saved by lower health costs, less damage from hurricanes, wildfires, and sea level rise could be used to invest in cleaner energy sources, education, healthcare, etc.</p>
 						<br></br>
 					<div class="text-center txt">
-						<p class = "round">Q: What are the hidden costs of the energy sources used to generate electricity for your city or state? How can these “costs” be shifted towards “savings”?</p>
+						<p class = "round">What are the hidden costs of the energy sources used to generate electricity for your city or state? How can these “costs” be shifted towards “savings”?</p>
 					</div>
 						<p>We will explore these questions by looking at the different energy sources used to generate electricity and the emissions of air pollutants and GHGs from each source. </p>
 						<br></br>
 			  	<div class="text-center txt">
-					<center><p class = "round">Q: What energy sources are used to generate electricity in the U.S.?</p></center>
+					<center><p class = "round">What energy sources are used to generate electricity in the U.S.?</p></center>
 				</div>
+				<a id="#energy-l"></a>
 					<p>An electrical energy portfolio is the combination of the energy sources used to generate the electricity used by a city, state or country.
 The pie chart below shows the electrical energy portfolio of the U.S. in 2018 as the percentage contribution from different energy sources</p>
 
@@ -134,23 +156,22 @@ The pie chart below shows the electrical energy portfolio of the U.S. in 2018 as
 		<div class="gridcontainer">
 			<div class="electric_grid">
 				<a href="https://www.youtube.com/watch?v=Sslva3LOeYE" target = "_blank">
-				<img id="coal" src="assets/coal.png" title="Coal Power Plant" alt="coal plant" width="200px" > </a>
+				<img id="coal" src="assets/coal.png" title="Coal Power Plant" alt="coal plant" width="230px" > </a>
 				<a href="https://www.tva.gov/Energy/Our-Power-System/Natural-Gas/How-a-Combined-Cycle-Power-Plant-Works"target = "_blank">
-				<img id="naturalgas" src="assets/naturalgas.png" title="Natural Gas Power Plant" alt="natural gas" width="250px"></a>
+				<img id="naturalgas" src="assets/naturalgas.png" title="Natural Gas Power Plant" alt="natural gas" width="275px"></a>
 				<a href="https://www.youtube.com/watch?v=Qthg5xE196w"target = "_blank">
-				<img id="nuclear" src="assets/nuclear.png" title="Nuclear Power Plant" alt="nuclear power" width="150px"></a>
+				<img id="nuclear" src="assets/nuclear.png" title="Nuclear Power Plant" alt="nuclear power" width="200px"></a>
 				<a href="https://www.energy.gov/eere/videos/energy-101-solar-pv "target = "_blank">
-				<img id="solar" src="assets/solar.png" title="Solar Power Plant" alt="solar power" width="175px"> </a>
+				<img id="solar" src="assets/solar.png" title="Solar Power Plant" alt="solar power" width="170px"> </a>
 				<a href="https://www.energy.gov/eere/wind/animation-how-wind-turbine-works"target = "_blank">
-				<img id="wind" src="assets/wind2.png" title="Wind Turbine" alt="wind power" width="185px"></a>
+				<img id="wind" src="assets/wind.png" title="Wind Turbine" alt="wind power" width="170px"></a>
 			</div>
+		</div>
+		<div class="container">
+				<div class="text-center sup"> <sup>*Click on each icon to view an animation which describes the energy source</sup> </div>
 		</div>
 	</div>
 
-
-	<div class="container">
-			<div class="text-center sup"> <sup>*Click on each icon to view animation</sup> </div>
-	</div>
 
 		<div class="container">
   			<div class="text-center txt">
@@ -193,7 +214,7 @@ The pie chart below shows the electrical energy portfolio of the U.S. in 2018 as
 					  <div class="column">
 							<div class="txt">
 							<iframe width="472.5" height="336.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRhlTI8is_MEoGbxHXmSiTVIWkZHVnar5N8KH2O24f692cCkCsPNlSprTaRg78e1OXNICW69pNb7waf/pubchart?oid=835011136&amp;format=interactive"></iframe>
-					    <h3 class="collapsible"> ↳ Green House Gas Emission</h3>
+					    <h3 class="collapsible"> ↳ Emission Factors for GHGs</h3>
 							<div class="content">
 							<p><br>This plot shows the grams of GHGs emitted for every kWh of electricity generated by different energy sources. So, if you turned on your light in your room and it was on for an hour, which energy source would emit the least amount of GHGs while generating the electricity your bulb used to be on for an hour?</p>
 							</div>
@@ -217,7 +238,7 @@ The pie chart below shows the electrical energy portfolio of the U.S. in 2018 as
 			<div class="column">
 				<div class="txt">
 				<iframe width="472.5" height="336.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRhlTI8is_MEoGbxHXmSiTVIWkZHVnar5N8KH2O24f692cCkCsPNlSprTaRg78e1OXNICW69pNb7waf/pubchart?oid=1687811094&amp;format=interactive"></iframe>
-				<h3 class="collapsible"> ↳ Downtime</h3>
+				<h3 class="collapsible"> ↳ Downtime Factor</h3>
 				<div class="content">
 				<p><br>This plot shows the grams of GHGs emitted for every kWh of electricity generated by different energy sources. So, if you turned on your light in your room and it was on for an hour, which energy source would emit the least amount of GHGs while generating the electricity your bulb used to be on for an hour?</p>
 				</div>
@@ -243,8 +264,8 @@ The pie chart below shows the electrical energy portfolio of the U.S. in 2018 as
 						<p>After reviewing the comparison data for each of these metrics, consider these questions:</p>
 						<p>Which electrical energy source is “cleaner”? How are you defining “cleaner”?<br>
 							Are any electrical energy sources truly “zero-emission”?<br>
-							What electrical energy portfolio would lower emissions of air pollutants and GHGs?<br>
-							How might capacity factor and power density play a role in your recommended electrical energy portfolio?<br>
+							Which electrical energy sources would lower emissions of air pollutants and GHGs?<br>
+							How might the downtime and land use factors determine which electrical energy energy source a city or state should use ?<br>
 							Is there a “perfect” energy portfolio which rates highly on all four metrics?</br>
 							What other metrics should be considered while determining an electrical energy portfolio?
 						</p>
@@ -254,17 +275,19 @@ The pie chart below shows the electrical energy portfolio of the U.S. in 2018 as
 
 
 <!-- Comparing the hidden costs of different states’ electrical energy portfolios -->
-<a id="example"></a>
 		<div class="container">
   			<div class="text-center txt">
-    			<h1>Comparing the hidden costs of different states’ electrical energy portfolios</h1>
+    			<h1>Comparing the external costs of different states’ electrical energy portfolios</h1>
    				<h2>How do different states make electricity?</h2>
   			</div>
 		</div>
+		<a id="#portfolio-l"></a>
+		<a id="states"></a>
 		<div class="container">
 				<div class="row">
 					<div class="col-md-8 offset-md-2 txt">
-						<p>Since <a href = "https://www.nytimes.com/interactive/2018/12/24/climate/how-electricity-generation-changed-in-your-state.html" target="_blank">states in the U.S. have different electrical energy portfolios</a> the emissions of air pollutants and GHGs as a result of electricity generated in a state varies. Looking at the emission factors plotted above, we can expect that states which have significant contributions from coal power plants will have higher levels of emissions of air pollutants and GHGs.  </p>
+						<p>An electrical energy portfolio is the combination of energy sources used by a city/state/country to support electricity demands. Since <a href = "https://www.nytimes.com/interactive/2018/12/24/climate/how-electricity-generation-changed-in-your-state.html" target="_blank">states in the U.S. have different electrical energy portfolios</a> the emissions of air pollutants and GHGs as a result of electricity generated in a state varies.<br>
+							 Looking at the emission factors plotted above, we can expect that states which have significant contributions from coal power plants will have higher levels of emissions of air pollutants and GHGs. As a result, these states may have higher external costs associated with their electricity use.</p>
 						<p>In the map below, you can compare the external costs for five different states as a result of their electrical energy portfolio. </p>
 						<p>Remember these costs are borne by the communities which reside in these states.  These costs can become savings by changing the electrical energy portfolio.</p>
 						<div class="map">
@@ -280,20 +303,12 @@ The pie chart below shows the electrical energy portfolio of the U.S. in 2018 as
 							<a href ="CAS.html" target = "_blank">
 							<img id = "ca" src="assets/CA.png" alt="ca" style="height:180px"></a>
 							<!-- <a class="collapsible"> New York</a> -->
-							<div class="content">
-								<div class="column">
-									<br></br>
-									<div class="tooltip1"><h3>$220
-										<span class="tooltip1text">Tooltip text</span>19,542,209 $ 4 billion </h3>
-								<h3>External cost per capita x State population = Total external cost</h3>
-								</div>
-								</div>
-							<div class="column">
-							<iframe width="400" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRhlTI8is_MEoGbxHXmSiTVIWkZHVnar5N8KH2O24f692cCkCsPNlSprTaRg78e1OXNICW69pNb7waf/pubchart?oid=677760010&amp;format=interactive"></iframe>
-							</div>
-							</div>
 							</div>
 
+							<div class="container">
+								<br>
+									<div class="text-center sup"> <sup>*Click on each state to learn more about state energy portfolio</sup> </div>
+							</div>
 
 <script>
 var coll = document.getElementsByClassName("collapsible");
@@ -312,9 +327,10 @@ for (i = 0; i < coll.length; i++) {
 }
 
 </script>
-						<p>What is the electrical energy portfolio of your state? <a href = "https://www.nytimes.com/interactive/2018/12/24/climate/how-electricity-generation-changed-in-your-state.html" target="_blank">Click here.</a><br>
+
+						<p>What is the electrical energy portfolio of  <a href = "https://www.nytimes.com/interactive/2018/12/24/climate/how-electricity-generation-changed-in-your-state.html" target="_blank">your state</a>?<br>
 							Based on what you have learned about electrical energy sources and external costs, how might the external cost of your state’s electrical energy portfolio compare with the five states shown here?</p>
-							<p>If you could make recommendations to your local or state representative on which energy sources should you state use, what would you recommend and why?</p>
+							<p>If you could make recommendations to your local or state representative on which energy sources your state should consider, what would you recommend and why?</p>
 				</div>
 		</div>
 		</div>
@@ -325,8 +341,9 @@ for (i = 0; i < coll.length; i++) {
 <!-- Have environmental regulations benefitted our health?  -->
 <div class="container">
 		<div class="text-center txt">
-			<h1>As a result of the passing of the 1970 Clean Air Act, the air in <br>
-				the U.S. is a lot “cleaner” now that it was in the 1960s and 1970s. </h1>
+			<h1>Environmental regulations = Cleaner air<br>
+			As a result of the passing of the 1970 Clean Air Act, the air in <br>
+				the U.S. is a lot cleaner now that it was in the 1960s and 1970s. </h1>
 			<br></br>
 		</div>
 </div>
@@ -347,27 +364,30 @@ for (i = 0; i < coll.length; i++) {
 	<div class="gridcontainer">
 		<div class="electric_grid">
 
+<a id="#timeline-l"></a>
 			<br></br>
 			<center><iframe width="751.2980769230769" height="410.5550992470911" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxzDcjtwUX4Vz3F6kZ_W0V4LLzWrF_WKlwp4v3SURRcHVw2OJtoLBHAXoZZNeCWbPoU-Y0IEOV0e22/pubchart?oid=1818216296&amp;format=interactive"></iframe></center>
 			<!-- <center><img src="assets/emission.png" id="emission" alt="emission" style="height:500px"></center> -->
 			<a href ="https://www.epa.gov/sites/production/files/2015-08/documents/peg.pdf" target = "_blank">
 			<img id = "timeline0" src="assets/0.png" alt="CAA" style="height:50px" ></a>
 			<a href ="https://www.epa.gov/sites/production/files/2015-11/documents/the_clean_air_act_-_highlights_of_the_1990_amendments.pdf" target = "_blank">
-			<img id = "timeline2" src="assets/2.png" alt="CAAA" style="height:60px" ></a>
-			<a href ="https://www.epa.gov/csapr/overview-cross-state-air-pollution-rule-csapr" target = "_blank">
-			<img id = "timeline5" src="assets/5.png" alt="PA" style="height:120px" ></a>
+			<img id = "timeline2" src="assets/2.png" alt="CAAA" style="height:55px" ></a>
 			<a href ="https://www.nytimes.com/2017/06/01/climate/trump-paris-climate-agreement.html" target = "_blank">
 			<img id = "timeline6" src="assets/6.png" alt="WPA" style="height:150px" ></a>
+			<a href ="https://unfccc.int/process-and-meetings/the-paris-agreement/what-is-the-paris-agreement" target = "_blank">
+			<img id = "timeline5" src="assets/5.png" alt="PA" style="height:120px" ></a>
 			<a href ="https://www.huffpost.com/entry/trump-coal-epa-energy-plan_n_5d095fa5e4b0f7b74428a1f9" target = "_blank">
 			<img id = "timeline7" src="assets/7.png" alt="RCPP" style="height:75px" ></a>
+			<a href ="https://www.ucsusa.org/our-work/global-warming/reduce-emissions/what-is-the-clean-power-plan" target = "_blank">
 			<img id = "timeline4" src="assets/4.png" alt="CPP" style="height:95px" ></a>
-			<a href ="https://unfccc.int/process-and-meetings/the-paris-agreement/what-is-the-paris-agreement" target = "_blank">
-				<img id = "timeline3" src="assets/3.png" alt="CSAPR" style="height:65px" ></a>
-				<a href ="https://www.ucsusa.org/our-work/global-warming/reduce-emissions/what-is-the-clean-power-plan" target = "_blank">
+			<a href ="https://www.epa.gov/csapr/overview-cross-state-air-pollution-rule-csapr" target = "_blank">
+				<img id = "timeline3" src="assets/3.png" alt="CSAPR" style="height:63px" ></a>
 			<br></br>
 			<br></br>
 			<br></br>
-			<a>*Click on each event to learn more</a>
+			<div class="container">
+					<div class="text-center sup"> <sup>*Click on each event to learn more</sup> </div>
+			</div>
 			<br></br>
 			</div>
 			</div>
@@ -390,7 +410,7 @@ for (i = 0; i < coll.length; i++) {
 		<div class="row">
 			<div class="col-md-8 offset-md-2 txt">
 				<div class="text-center txt">
-				<p class = "round">Q: Are the “cost” of regulations higher than the “benefits”?</p>
+				<p class = "round">Are the “cost” of regulations higher than the “benefits”?</p>
 				</div>
 				<p>Environmental regulations are often presented as being expensive and whether or not the "benefits" of regulations outweigh the "costs". In the case of the CAA the answer is clear  - the benefits far outweighs the costs. And the beneficiaries are the people who reside in the U.S.</p>
 				<p>As a result of the passing of the 1970 CAA and amendments, the air quality in the U.S. has improved, significantly lowering the “external cost” as a result of a lowering of the negative impacts on human and ecosystem health from air pollution. Some studies suggest for every $1 invested in regulations to improve air quality, $40 was returned to the U.S. economy, saving trillions of dollars since the passing of the Clean Air Act in 1970. </p>
@@ -402,7 +422,7 @@ for (i = 0; i < coll.length; i++) {
 		<div class="text-center txt">
 			<br></br>
 			<iframe src="http://widget.ucsusa.org/widget.html" width="200" height="250" scrolling="no" name="ucs-clean-air-widget" id="ucs-clean-air-widget" frameborder="0"></iframe>
-			<br></br>
+						<br></br>
 		</div>
 </div>
 
@@ -410,12 +430,12 @@ for (i = 0; i < coll.length; i++) {
 <div class="container">
 	<div class="col-md-8 offset-md-2 txt">
 		<div class="text-center txt">
-			<p class = "round"> Q:If you could decide the electrical energy portfolio for a city like New York, what would you propose? </p>
+			<p class = "round"> If you could decide the electrical energy portfolio for a city like New York, what would you propose? </p>
 			<br></br>
 		</div>
 	</div>
 </div>
-
+<a id="#tool-l"></a>
 <div class="container">
 		<div class="row">
 			<div class="col-md-8 offset-md-2 txt">
@@ -424,6 +444,7 @@ for (i = 0; i < coll.length; i++) {
 			</div>
 		</div>
 </div>
+
 
 <div class="container">
 		<div class="text-center txt">
