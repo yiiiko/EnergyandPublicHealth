@@ -3,6 +3,7 @@
 body {
 	font-family: "Avenir Next", sans-serif;
 	background-color: #F8F9F4;
+	/* background-color: #FFFFFF; */
 }
 
 /* span {
@@ -626,9 +627,10 @@ sub {
 
 }
 
-.citation{
+.citation p{
 	text-align:right;
 	color: gray;
+	font-size: 9px;
 
 }
 
