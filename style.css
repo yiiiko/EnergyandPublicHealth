@@ -372,7 +372,7 @@ body {
 #ny {
 	position: absolute;
 	top: 17.5%;
-	right: 5%;
+	right: 5.3%;
 	/* transform:rotate(-12deg); */
 	opacity: 0.8;
 }
@@ -385,7 +385,7 @@ body {
 #ne {
 		position: absolute;
 		top: 31%;
-		right: 46%;
+		right: 46.5%;
 		/* transform:rotate(-12deg); */
 		opacity: 0.8;
 	}
@@ -398,7 +398,7 @@ body {
 
 #oh {
 			position: absolute;
-			top: 32.5%;
+			top: 33%;
 			right: 20%;
 			/* transform:rotate(-12deg); */
 			opacity: 0.8;
@@ -421,6 +421,18 @@ body {
 				opacity: 1.0;
 				cursor: pointer;
 			}
+
+#ky {
+				position: absolute;
+				top: 46%;
+				right: 22%;
+				opacity: 0.8;
+		}
+
+#ky:hover{
+				opacity: 1.0;
+				cursor: pointer;
+		}
 
 #ca {
 				position: absolute;
@@ -485,6 +497,7 @@ sup {
 
 sub {
 	font-size: 0.85em;
+
 }
 
 /* Two Columns */
@@ -565,8 +578,9 @@ sub {
 .sidenav{
 	background-color: white;
 }
+
 #mySidenav a {
-	/* right:-170px; */
+	/* left:-70px; */
   position: fixed;
   transition: 0.3s;
   padding: 12px;
@@ -580,7 +594,7 @@ sub {
 }
 
 #mySidenav a:hover {
-	/* right:-80px; */
+	/* left:0px; */
   font-size: 14px;
 	opacity: 1.0;
 	color: orange;
@@ -609,6 +623,12 @@ sub {
 
 #tool {
   top: 430px;
+
+}
+
+.citation{
+	text-align:right;
+	color: gray;
 
 }
 
